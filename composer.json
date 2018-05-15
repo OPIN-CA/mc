@@ -1,0 +1,14 @@
+{
+  "name": "drupal/mc",
+  "type": "drupal-module",
+  "description": "Custom module for generating YAML content.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/mc",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/mc",
+    "source": "http://cgit.drupalcode.org/mc"
+  },
+  "require": { }
+}

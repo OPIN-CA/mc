@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Contains mc.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function mc_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the mc module.
+    case 'help.page.mc':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom module for generating YAML content.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+

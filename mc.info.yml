@@ -1,0 +1,5 @@
+name: 'My Content'
+type: module
+description: 'Custom module for generating content with YAML content module.'
+core: 8.x
+package: 'Content'

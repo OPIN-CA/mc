@@ -1,0 +1,26 @@
+# Demonstration content for interrelated imports.
+---
+# Add taxonomy terms to be referenced from later content.
+# All top-level array items must be separate entities for import.
+
+# Add a basic article page with simple values.
+- entity: "node"
+  type: "page"
+  title: "Nam commodi dolorum beatae consequatur ad rerum unde laudantium est."
+  status: 1
+
+- entity: "node"
+  type: "page"
+  title: "Ea aut id qui dolorem illum optio."
+  status: 1
+
+- entity: "node"
+  type: "page"
+  title: "Et quas ducimus quo."
+  status: 1
+
+- entity: "node"
+  type: "page"
+  title: "Maxime numquam aliquid."
+  status: 1
+
