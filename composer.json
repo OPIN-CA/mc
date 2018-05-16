@@ -1,14 +1,23 @@
 {
-  "name": "drupal/mc",
-  "type": "drupal-module",
+  "name": "opin/mc",
   "description": "Custom module for generating YAML content.",
-  "keywords": ["Drupal"],
-  "license": "GPL-2.0+",
-  "homepage": "https://www.drupal.org/project/mc",
+  "type": "drupal-custom-module",
+  "authors": [
+      {
+          "name": "Adrian Rylski",
+          "email": "adrian.rylski@opin.ca"
+      }
+  ],
   "minimum-stability": "dev",
-  "support": {
-    "issues": "https://www.drupal.org/project/issues/mc",
-    "source": "http://cgit.drupalcode.org/mc"
+  "require": {
+      "composer/installers": "^1.2",
+      "drupal/yaml_content": "^1.0",
   },
-  "require": { }
+  "extra": {
+      "installer-paths": {
+          "docroot/modules/custom/{$name}": [
+              "type:drupal-custom-module"
+          ]
+      }
+  }
 }
