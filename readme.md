@@ -7,11 +7,11 @@ The module must not be enabled. It only acts as a yaml file repository to be imp
 ## Installation ##
 Enable [**YAML Content**](https://www.drupal.org/project/yaml_content) module  using Drush
 
-```yml
+```
  drush en yaml_content
  ``` 
 or using Drupal Console
-```yml 
+``` 
 drupal moi yaml_content
 ``` 
 
@@ -21,9 +21,27 @@ References detail how to create YAML files with different content types and enti
 
 Use **content/demo.content.yml** as a example file to create dummy content. 
 
-Run
-
+e.g.
 ```yml
+# Add a basic article page.
+- entity: "node"
+  type: "article"
+  title: "Tullamco laboris nisi ut aliquid ex ea commodi consequat."
+  status: 1
+  body:
+    format: "full_html"
+    # Using a pipe we can define content across multiple lines.
+    value: |
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vobis
+      voluptatum perceptarum recordatio vitam beatam facit, et quidem corpore
+      perceptarum. Tum Quintus: Est plane, Piso, ut dicis, inquit.Primum cur
+      ista res digna odio est, nisi quod est turpis? Duo Reges: constructio
+      interrete. Rhetorice igitur, inquam, nos mavis quam dialectice disputare?</p>
+```
+
+then run
+
+```
 drush ycim mc
 ```
 to import content into the site once yaml files are created. 
