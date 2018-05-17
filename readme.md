@@ -5,16 +5,16 @@ Helper module for YAML Content module - part of Whirlwind profile.
 The module must not be enabled. It only acts as a yaml file repository to be imported by YAML Content module.
 
 ## Installation ##
-Enable [**YAML Content**](https://www.drupal.org/project/yaml_content) module
+Enable [**YAML Content**](https://www.drupal.org/project/yaml_content) module  using Drush
 
 ```yml
  drush en yaml_content
  ``` 
- using Drush or
+or using Drupal Console
 ```yml 
 drupal moi yaml_content
 ``` 
-using drupal Console
+
 
 ## Using ##
 References detail how to create YAML files with different content types and entities.
