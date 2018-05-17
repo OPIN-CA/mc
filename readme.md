@@ -1,4 +1,28 @@
-Other references for YML Content mmodule
+Helper module for YAML Content module - part of Whirlwind profile.
+
+## Intro ##
+
+The module must not be enabled. It only acts as a yaml file repository to be imported by YAML Content module.
+
+## Installation ##
+Enable [**YAML Content**](https://www.drupal.org/project/yaml_content) module
+
+```yml
+ drush en yaml_content
+ ``` 
+ using Drush or
+```yml 
+drupal moi yaml_content
+``` 
+using drupal Console
+
+## Using ##
+Go over reference links below for details on how to create YAML files with different content types/entities.
+
+Use **content/demo.content.yml** as a reference. 
+
+
+## References ##
 
 - Field Templates[https://www.drupal.org/docs/8/modules/yaml-content/field-templates-v8x-1x]
 
@@ -10,3 +34,9 @@ Other references for YML Content mmodule
 - Introducing the YAML Content Module[https://www.mediacurrent.com/blog/introducing-yaml-content-module/]
 
 - Creating Content with YAML Content Module [https://www.mediacurrent.com/blog/creating-content-yaml-content-module/]
+
+## Changelog ##
+
+### v1.0 ###
+- Initial release
+
